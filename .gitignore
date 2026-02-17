@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.*
+*.key
+
+# Logs
+.logs/
+*.log
+
+# Temp & Cache
+tmp/
+*.tmp
+*.bak
+
+# Build artifacts
+dist/
+build/
+node_modules/
+src-tauri/target/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Screenshots locaux
+Capture d'ecran/
+screenshots/
+
+# IDE
+.vscode/settings.json
+.idea/
